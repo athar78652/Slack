@@ -1,0 +1,38 @@
+.Input{
+    height: 50px;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Input input{
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #2f2d52;
+    font-size: 18px;
+}
+
+.Input input::placeholder{
+    color: rgb(216, 199, 199);
+}
+
+.send{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.attach{
+    cursor: pointer;
+}
+
+.send button{
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: #3c65eb;
+    cursor: pointer;
+}
